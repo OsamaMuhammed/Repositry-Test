@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<style>
+     *
+     {
+     	box-sizing: border-box;
+     }
+	h1{
+		position: relative;
+		text-align: center;	
+	}	
+		section {
+		position: relative;
+		padding: 15px;
+		top: 100px;
+	}
+	div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+	
+	}
+p{
+	text-align: center;
+	clear: right;
+}
+#Stitle{
+	float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		background-color: pink;
+		
+}
+
+#Stitle1{
+	float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+
+		background-color: green;
+		
+}
+
+#Stitle2{
+	float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+
+		background-color: yellow;
+		
+}	
+	/*desktop version*/
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+</style>
+<head>
+	<title>Hello Osama</title>
+</head>
+<body>
+<h1>Our Menu</h1>
+<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+	<div>
+	<p id="Stitle">
+		Chicken
+	</p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+	</p>
+</div>
+</section>
+
+<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+	<div>
+	<p id="Stitle1">
+		Beef
+	</p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+	</p>
+</div>
+</section>
+
+<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+	<div>
+	<p id="Stitle2">
+		Sushi
+	</p>
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam fugiat repudiandae fugit porro commodi amet possimus sit atque, non obcaecati, et repellendus enim perferendis nobis quibusdam vero nulla magni quaerat!
+	</p>
+</div>
+</section>
+</body>
+</html>
